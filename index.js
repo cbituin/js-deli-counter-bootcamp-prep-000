@@ -23,7 +23,7 @@ function nowServing(customersWaiting){
 
 function currentLine(customersWaiting){
     if(customersWaiting <= 0){
-        return 'The line is currently empty.'
+        return 'The line is currently empty.';
     } else {
         let nameList = [];
         for(let i = 0; i < customersWaiting.length; i++){
@@ -31,7 +31,7 @@ function currentLine(customersWaiting){
         let customerName = customersWaiting[i];
         nameList.push(" " + currentPosition + '. ' + customerName); 
         }
-        return "The line is currently: " + nameList;
+        return "The line is currently:" + nameList;
     
     }
 }

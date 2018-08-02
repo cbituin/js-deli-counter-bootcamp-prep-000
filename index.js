@@ -29,7 +29,7 @@ function currentLine(customersWaiting){
         for(let i = 0; i < customersWaiting.length; i++){
         let currentPosition = customersWaiting.indexOf(customersWaiting[i]) + 1;
         let customerName = customersWaiting[i];
-        nameList.push(currentPosition + '. ' + customerName + " "); 
+        nameList.push(" " + currentPosition + '. ' + customerName); 
         }
         return "The line is currently: " + nameList;
     

@@ -31,7 +31,7 @@ function currentLine(customersWaiting){
         let customerName = customersWaiting[i];
         nameList.push(currentPosition + '. ' + customerName); 
         }
-        return "The line is currently: " + nameList;
+        return "The line is currently: " + nameList + " ";
     
     }
 }

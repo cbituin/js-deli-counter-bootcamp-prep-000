@@ -18,3 +18,5 @@ function nowServing(customersWaiting){
     }
     return customersWaiting;
 }
+
+
